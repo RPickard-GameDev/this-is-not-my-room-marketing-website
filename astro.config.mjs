@@ -41,6 +41,7 @@ export default defineConfig({
       entryLimit: 10000, // Increase entry limit if you have many pages
     }),
   ],
+  output: "static",
   image: {
     // Allow all remote patterns (https and http)
     remotePatterns: [
