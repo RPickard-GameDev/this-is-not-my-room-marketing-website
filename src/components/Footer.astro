@@ -22,9 +22,9 @@ interface Props {
 const { footerCta } = Astro.props;
 
 const defaultCta = {
-  title: "Ready to get started?",
-  description: "Join us today and transform your digital presence with our innovative solutions.",
-  hideCta: false,
+  title: "",
+  description: "",
+  hideCta: true,
   button: {
     text: "Contact Us",
     link: "/contact",
@@ -56,26 +56,6 @@ const currentYear = new Date().getFullYear();
         </Button>
       </div>
     )}
-
-    <div class="grid grid-cols-1 md:grid-cols-4 gap-8 pb-8 border-b border-background-light">
-      <div class="col-span-1">
-        <Logo variant="footer" />
-        <p class="mt-4 text-white">
-          Empowering your digital journey with innovative solutions.
-        </p>
-      </div>
-      
-      <div class="col-span-1">
-        <h3 class="text-lg font-semibold mb-4">Quick Links</h3>
-        <nav>
-          <ul class="space-y-2">
-            {footerMenu.map(item => (
-              <li><a href={item.link} class="text-body-dark hover:text-white transition-colors">{item.name}</a></li>
-            ))}
-          </ul>
-        </nav>
-      </div>
-    </div>
 
     <div class="mt-8 flex flex-col md:flex-row justify-between items-center">
       <div class="text-body-dark text-sm">
