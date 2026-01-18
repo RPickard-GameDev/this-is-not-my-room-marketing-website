@@ -3,8 +3,6 @@ import { Image } from 'astro:assets';
 import logo from '../assets/images/logos/game_logo.png'
 
 ---
-<a href="/" class:list={[
-    'logo uppercase font-logo transition-colors duration-200 font-light text-body-base hover:text-primary'
-]}>
-    <Image src={logo} alt="Logo" /> 
+<a href="/" class="logo">
+    <Image class="logo-main" src={logo} alt="Logo" /> 
 </a>

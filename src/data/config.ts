@@ -1,5 +1,5 @@
 export const siteConfig = {
-  companyName: 'Titan Core',
+  companyName: 'Blackveil Studio',
   siteUrl: 'https://titan-core.com',
   Socials: {
       xSocial: 'https://x.com/astrodotbuild',

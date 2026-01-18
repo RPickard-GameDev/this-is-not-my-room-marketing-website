@@ -564,3 +564,8 @@ pre[class*="language-"] {
     border-radius: 2px;
     font-weight: 400;
 }
+
+.logo-main {
+    height:75px;
+    width: 75px;
+}
