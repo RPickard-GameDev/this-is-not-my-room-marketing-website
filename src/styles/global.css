@@ -566,6 +566,12 @@ pre[class*="language-"] {
 }
 
 .logo-main {
-    height:75px;
-    width: 75px;
+    height:100px;
+    width: 100px;
+    margin: -17px;
+    border-radius: 25px;
+}
+
+.banner-branded {
+    background: #1E0414;
 }

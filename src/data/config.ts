@@ -6,7 +6,7 @@ export const siteConfig = {
       Github: 'https://github.com/withastro',
       Instagram: 'https://www.instagram.com/astrodotbuild',
       LinkedIn: 'https://www.linkedin.com/company/astrodotbuild',
-      Email: 'support@titan-core.com',
+      Email: 'info@thisisnotmyroom.com',
       Phone: '+123 456 7890',
       Location: '123 Main St, Anytown, USA',
   }
@@ -14,7 +14,7 @@ export const siteConfig = {
 
 export const SEO = {
   Separator: '|',
-  SiteName: 'Titan Core',
+  SiteName: 'Blackveil Studio',
   defaultDescription: 'A modern, high-performance Astro JS theme',
 };
   
