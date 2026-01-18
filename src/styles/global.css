@@ -565,11 +565,14 @@ pre[class*="language-"] {
     font-weight: 400;
 }
 
-.logo-main {
-    height:100px;
-    width: 100px;
+.logo {
     margin: -17px;
-    border-radius: 25px;
+    border-radius: .5rem;
+}
+
+.logo-main {
+    height: 100px;
+    width: 100px;
 }
 
 .banner-branded {
