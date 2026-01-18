@@ -71,8 +71,6 @@ const fullCanonicalUrl = new URL(canonicalPath, siteConfig.siteUrl).toString();
 	<body data-theme={theme}>
 		<Header />
 		<slot />
-		<Footer footerCta={footerCta} />
-		
 		<script>
 			import AOS from 'aos';
 			AOS.init({
