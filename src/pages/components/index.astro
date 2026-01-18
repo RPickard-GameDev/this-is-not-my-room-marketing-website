@@ -14,9 +14,8 @@ import { faqLists } from '@data/faqs';
 import RecentPosts from '@components/sections/RecentPosts.astro';
 import InnerHero from '@components/sections/InnerHero.astro';
 import TeamGrid from '@components/sections/TeamGrid.astro';
-import defaultHero from '@assets/images/home/default-hero.jpg';
-import defaultHero2 from '@assets/images/home/default-hero-2.jpg';
-import developerImg from '@assets/images/home/developer.jpg';
+import bedroomConceptImage from '../assets/images/home/Bedroom_Concept.png'
+
 
 const seoTitle = "Component Library - Titan Core";
 const seoDescription = "Explore the complete component library of Titan Core, a modern, high-performance Astro theme for developer portfolios and documentation sites.";
@@ -51,7 +50,7 @@ const heroContent = {
             target: '_blank'
         }
     ],
-    backgroundImage: defaultHero2,
+    backgroundImage: bedroomConceptImage,
     overlayOpacity: 0.2
 }
 
@@ -59,7 +58,7 @@ const heroContent = {
 const innerHeroContent = {
     title: 'Inner Hero for Secondary Pages',
     description: 'A more compact hero component designed specifically for inner pages, providing consistent branding while taking up less vertical space.',
-    backgroundImage: defaultHero,
+    backgroundImage: bedroomConceptImage,
     overlayOpacity: 0.5
 }
 
@@ -95,7 +94,7 @@ const styleGuideSection = {
     headline: "Text & Image Combinations",
     description: "The SplitPanel component allows you to create beautiful side-by-side layouts with text on one side and images on the other. Perfect for product showcases, about sections, or feature highlights.",
     image: {
-        src: developerImg,
+        src: bedroomConceptImage,
         alt: "Developer working on code"
     },
     buttons: [
